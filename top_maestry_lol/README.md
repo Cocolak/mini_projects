@@ -12,3 +12,11 @@ pip install -r requirements.txt
 ## Graphs
 
 ![Example](docs/example.png)
+
+### Used
+- [requests](https://requests.readthedocs.io/en/latest/)
+- [json](https://docs.python.org/3/library/json.html)
+- [pandas](https://pandas.pydata.org/)
+- [numpy](https://numpy.org/)
+- [matplotlib](https://matplotlib.org/)
+- [Riot APIs](https://developer.riotgames.com/apis)
