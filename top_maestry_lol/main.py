@@ -5,12 +5,6 @@ Check README.md
 
 """
 
-import requests
-import json
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-
 
 def show_menu():
     print("Choose your region:")
@@ -105,6 +99,12 @@ def show_maestry_graphs():
 
 
 if __name__ == "__main__":
+    import requests
+    import json
+    import pandas as pd
+    import numpy as np
+    import matplotlib.pyplot as plt
+
     API_KEY = "RGAPI-9d677c97-a2d1-4eb3-88db-e1b4a286deca"
 
     region, subregion = show_menu()
