@@ -54,7 +54,7 @@ def get_account_info():
 
     # Save info to file
     with open(f"user_{name}_{tag}.json", "w") as f:
-        json.dump(response.json(), f)
+        json.dump(response.json(), f, indent=4)
         f.close()
 
     return account_data["puuid"]
@@ -67,7 +67,7 @@ def get_maestry_info():
 
     # Save maestry info to file
     with open(f"maestry_{name}_{tag}.json", "w") as f:
-        json.dump(response.json(), f)
+        json.dump(response.json(), f, indent=4)
         f.close()
 
 
