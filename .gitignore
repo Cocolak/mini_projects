@@ -1,5 +1,6 @@
 # Pycharm
 **/.idea
+.idea
 
 # IntelliJ
 **/out/
@@ -18,3 +19,10 @@
 **/ENV/
 **/env.bak/
 **/venv.bak/
+.venv
+.env/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/

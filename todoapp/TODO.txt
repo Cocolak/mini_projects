@@ -1,0 +1,33 @@
+# Todoapp
+
+## DEMO
+### Front End / Design
+- Main Panel
+    + widok tasków (przewijany)
+    + przycisk dodaj task
+
+- Add Task
+    - text input "name"
+    - przycisk dodaj
+    - przycisk anuluj
+
+
+### Backend
+- wczytanie designu projektu
+- dodanie, wygenerowanie statyczne kilku tasków
+- po kliknięciu Add Task pojawia się nowa nakładka na cały ekran lub do połowy lub nowe okno
+- aplikacja ma działać, ale narazie nic nie zapisywać (wszytsko statycznie)
+
+
+## First working app
+### Backend
+- generowanie tasków do aplikacji
+- dodawanie taska przyciskiem
+    - pojawia się nowa nakładka na cały ekran lub do połowy lub nowe okno
+    - po zatwierdzeniu nakładka znika
+    - lista tasków się odświeża
+- po odznaczeniu/zaznaczeniu taska baza danych się aktualizuje
+
+
+
+## UPDATES
