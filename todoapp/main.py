@@ -14,9 +14,9 @@ class TODOAPP(QMainWindow):
         self.setWindowTitle('TODO APP')
 
         self.stacked_widget = self.findChild(QStackedWidget, "stackedWidget")
-        self.stacked_widget.setCurrentIndex(0)
+        self.stacked_widget.setCurrentIndex(1)
 
-        todos = ["Wyprowadzanie", "Pakowanie", "Malowanie", "Jeden", "Dwa"]
+        todos = ["Task Name", "Task Name", "Task Name", "Task Name", "Task Name", "Task Name", "Task Name"]
 
         for todo in todos:
             item = QListWidgetItem(todo)
