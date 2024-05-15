@@ -12,7 +12,7 @@ class TODOAPP(QMainWindow):
     def __init__(self):
         super(TODOAPP, self).__init__()
 
-        uic.loadUi('design.ui', self)
+        uic.loadUi('ui/design.ui', self)
         self.setWindowTitle('TODO APP')
         self.setFixedSize(380, 520)
         self.center()
@@ -24,6 +24,7 @@ class TODOAPP(QMainWindow):
 
         self.listWidget.itemClicked.connect(self.task_checked)
         self.addTaskButton.clicked.connect(self.add_task_clicked)
+        self.removeTaskButton.clicked.connect(self.remove_task_clicked)
         self.confirmButton.clicked.connect(self.confirm_clicked)
         self.cancelButton.clicked.connect(self.cancel_clicked)
 
@@ -47,6 +48,11 @@ class TODOAPP(QMainWindow):
 
     def add_task_clicked(self):
         self.stackedWidget.setCurrentIndex(1)
+
+    def remove_task_clicked(self):
+        task_name = self.listWidget.currentItem().text()
+        self.dbManger.remove_task(task_name)
+        self.load_todos()
 
     def confirm_clicked(self):
         # Print info that task is added

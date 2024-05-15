@@ -8,8 +8,7 @@ pip install -r requirements.txt
 ```
 
 ## Preview
-![Main Page](docs/main-page.png)
-![Adding Task](docs/add-task.png)
+![Demo](docs/demo_video.gif)
 
 ## Usage
 - For now it is a demo with no functionality

@@ -39,6 +39,14 @@ class DBManager:
         conn.commit()
         conn.close()
 
+    def remove_task(self, task):
+        conn, cursor = self.get_conn_cursor()
+        query = 'DELETE FROM tasks WHERE name = ?'
+
+        cursor.execute(query, (task,))
+        conn.commit()
+        conn.close()
+
     def checked_is_changed(self, task_name, new_value):
         conn, cursor = self.get_conn_cursor()
         query = 'UPDATE tasks SET isDone = ? WHERE name = ?'
