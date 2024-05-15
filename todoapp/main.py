@@ -50,12 +50,16 @@ class TODOAPP(QMainWindow):
         self.stackedWidget.setCurrentIndex(1)
 
     def remove_task_clicked(self):
-        task_name = self.listWidget.currentItem().text()
+        try:
+            task_name = self.listWidget.currentItem().text()
+        except:
+            # TODO: Error: You need to select task first
+            return
         self.dbManger.remove_task(task_name)
         self.load_todos()
 
     def confirm_clicked(self):
-        # Print info that task is added
+        # TODO: Info: task is added
         task_name = self.taskNameTextEdit.toPlainText()
         self.dbManger.add_task(task_name)
         self.taskNameTextEdit.clear()

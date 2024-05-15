@@ -11,7 +11,8 @@ pip install -r requirements.txt
 ![Demo](docs/demo_video.gif)
 
 ## Usage
-- For now it is a demo with no functionality
+- Add & Delete your tasks
+- Stored in database file
 
 ### Modules
 - [PyQt5](https://doc.qt.io/qtforpython-6/)

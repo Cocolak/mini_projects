@@ -114,7 +114,7 @@ border-radius: 7px;
 }
 
 QListWidget::indicator:checked{
-	image: url(:/res/check-mark.png);
+	image: url(:/res/images/check-mark.png);
 }
 
 QPlainTextEdit {
@@ -174,8 +174,8 @@ border: none;</string>
              <string>Add Task</string>
             </property>
             <property name="icon">
-             <iconset>
-              <normaloff>add-button.png</normaloff>add-button.png</iconset>
+             <iconset resource="res.qrc">
+              <normaloff>:/res/images/add-button.png</normaloff>:/res/images/add-button.png</iconset>
             </property>
             <property name="iconSize">
              <size>
@@ -203,8 +203,8 @@ border: none;</string>
              <string>Remove Task</string>
             </property>
             <property name="icon">
-             <iconset>
-              <normaloff>remove.png</normaloff>remove.png</iconset>
+             <iconset resource="res.qrc">
+              <normaloff>:/res/images/remove.png</normaloff>:/res/images/remove.png</iconset>
             </property>
            </widget>
           </item>

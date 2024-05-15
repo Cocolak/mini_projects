@@ -1,6 +1,0 @@
-<RCC>
-  <qresource prefix="res">
-    <file>check-mark.png</file>
-    <file>add-button.png</file>
-  </qresource>
-</RCC>

@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="res">
+    <file>../images/remove.png</file>
+    <file>../images/check-mark.png</file>
+    <file>../images/add-button.png</file>
+  </qresource>
+</RCC>
