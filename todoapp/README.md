@@ -16,3 +16,4 @@ pip install -r requirements.txt
 
 ### Modules
 - [PyQt5](https://doc.qt.io/qtforpython-6/)
+- [sqlite3](https://docs.python.org/3/library/sqlite3.html)
